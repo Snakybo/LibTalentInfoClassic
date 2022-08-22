@@ -1,0 +1,10 @@
+## Interface: 30400
+## Title: Lib: TalentInfoClassic
+## Author: Snakybo
+## Notes: Get talent data for any class or spec.
+## Version: @project-version@
+## X-Category: Library
+
+LibStub\LibStub.lua
+
+LibTalentInfoClassic-1.0.xml
