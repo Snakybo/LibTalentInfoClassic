@@ -5,7 +5,7 @@ if LibStub == nil then
 	error(VERSION_MAJOR .. " requires LibStub")
 end
 
---- @class LibTalentInfoClassic
+--- @class LibTalentInfoClassic-1.0
 local LibTalentInfoClassic = LibStub:NewLibrary(VERSION_MAJOR, VERSION_MINOR)
 
 --- @class TalentProvider

@@ -1,8 +1,8 @@
---- @type LibTalentInfoClassic
+--- @type LibTalentInfoClassic-1.0
 local LibTalentInfoClassic = LibStub and LibStub("LibTalentInfoClassic-1.0", true)
-local version = 45043
+local version = 51943
 
-if WOW_PROJECT_ID ~= WOW_PROJECT_BURNING_CRUSADE_CLASSIC or LibTalentInfoClassic == nil or version <= LibTalentInfoClassic:GetTalentProviderVersion() then
+if WOW_PROJECT_ID ~= WOW_PROJECT_WRATH_CLASSIC or LibTalentInfoClassic == nil or version <= LibTalentInfoClassic:GetTalentProviderVersion() then
 	return
 end
 
